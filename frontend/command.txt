@@ -1,9 +1,0 @@
-Build image
-===================
-docker build -t img-react .
-
-Run container
-==================
-docker run --name jobPost-frontend \
-  -p 3000:3000 \
-  img-react

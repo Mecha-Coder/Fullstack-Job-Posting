@@ -1,3 +1,32 @@
+
+=======================================================
+Build image
+
+docker build -t img-fastify .
+docker build -t img-postgres .
+docker build -t img-react .
+
+=======================================================
+Run container
+
+docker run --name jobPost-backend \
+  --env-file ../.env \
+  -p 5000:5000 \
+  img-fastify
+
+docker run --name jobPost-db \
+  --env-file ../.env \
+  -p 9000:5432 \
+  img-postgres
+Build image
+
+
+docker run --name jobPost-frontend \
+  -p 3000:3000 \
+  img-react
+
+=====================================================
+
 docker-compose build --no-cache
 
 docker-compose ps
