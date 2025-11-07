@@ -1,4 +1,4 @@
-# Fullstack Job Posting Platform
+![Banner](https://github.com/Mecha-Coder/Fullstack-Job-Posting/blob/main/demo/logo.svg)
 
 ### **Overview**
 
@@ -97,4 +97,5 @@ Project is managed using **CMake** for simplicity.
 | `make start` | Restart containers                   |
 | `make clean` | Remove containers and related images |
 | `make re`    | Clean and rebuild everything         |
+
 
