@@ -7,13 +7,18 @@ A side project built to **integrate and containerize** the frontend, backend, an
 * **Employers** can add and manage job postings.
 * **Job seekers** can browse available jobs.
 
+![HomePage](https://github.com/Mecha-Coder/Fullstack-Job-Posting/blob/main/demo/HomePage.png)
+
 ---
 
 ### **Features**
 
-* Full **CRUD** functionality
-* **Responsive** UI design
 * Simple and lightweight container setup
+* **Responsive** UI design
+![Responsive](https://github.com/Mecha-Coder/Fullstack-Job-Posting/blob/main/demo/Responsive.gif)
+
+* Full **CRUD** functionality
+![CRUD](https://github.com/Mecha-Coder/Fullstack-Job-Posting/blob/main/demo/Edit.gif)
 
 ---
 
@@ -72,8 +77,8 @@ make
 
 2. Wait for setup to complete. If successful, you’ll **not** see any `exit` messages, and the following logs will appear:
 
-![Setup Screenshot 1](image.png)
-![Setup Screenshot 2](image-1.png)
+![Setup Screenshot 1](https://github.com/Mecha-Coder/Fullstack-Job-Posting/blob/main/demo/docker-1.png)
+![Setup Screenshot 2](https://github.com/Mecha-Coder/Fullstack-Job-Posting/blob/main/demo/docker-2.png)
 
 3. Then, open your browser and visit:
 👉 **http://localhost:3000**
