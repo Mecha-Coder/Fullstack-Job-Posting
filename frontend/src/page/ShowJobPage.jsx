@@ -4,8 +4,9 @@ import { ScaleLoader } from "react-spinners";
 
 import JobCard from "../components/JobCard";
 
+
 async function getAllJob() {
-    const res = await fetch("http://localhost:5000/jobs");
+    const res = await fetch(`http://localhost:5000/jobs`);
     if (!res.ok) throw new Error("😞 Network Issue");
     return res.json();
 }  

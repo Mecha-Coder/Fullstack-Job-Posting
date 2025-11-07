@@ -4,6 +4,7 @@ import { MdOutlineCancel } from "react-icons/md";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { toast} from 'react-toastify';
 
+const API_URL = import.meta.env.VITE_BACKEND_URL;
 
 async function getJobDetail(id) {
 

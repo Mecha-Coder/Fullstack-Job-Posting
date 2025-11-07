@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { ScaleLoader } from "react-spinners";
 
-
 import JobCard from "../components/JobCard";
 
 async function getRecentJob() {
-    const res = await fetch("http://localhost:5000/jobs/recent");
+    const res = await fetch(`http://localhost:5000/jobs/recent`);
     if (!res.ok) throw new Error("");
     return res.json();
 }   
@@ -18,8 +17,6 @@ function HomePage() {
         queryKey: ["home"], //data
         queryFn: getRecentJob,
     });
-
-
 
   return (
     <>

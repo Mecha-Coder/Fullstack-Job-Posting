@@ -4,6 +4,8 @@ import {FaArrowLeft} from "react-icons/fa"
 import { useQueryClient, useMutation } from "@tanstack/react-query";
 import { toast } from "react-toastify";
 
+const API_URL = import.meta.env.VITE_BACKEND_URL;
+
 async function updateJob(id, newData) {
     const res = await fetch(`http://localhost:5000/jobs/${id}`, {
         method: "PUT",

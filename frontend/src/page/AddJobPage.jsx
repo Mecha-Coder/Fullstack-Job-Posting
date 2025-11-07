@@ -4,7 +4,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { toast } from "react-toastify";
 
 async function addJob(newJob) {
-  const res = await fetch("http://localhost:5000/jobs", {
+  const res = await fetch(`http://localhost:5000/jobs`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(newJob),

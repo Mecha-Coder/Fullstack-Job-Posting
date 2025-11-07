@@ -29,24 +29,25 @@ const router = createBrowserRouter([
     },
 ]);
 
+
 createRoot(document.getElementById('root')).render(
     
     <StrictMode>
         <QueryClientProvider client={queryClient}>
-            <RouterProvider router={router} />
-            <ToastContainer
-                position="bottom-right"
-                autoClose={3000}
-                hideProgressBar
-                newestOnTop={false}
-                closeOnClick={false}
-                rtl={false}
-                pauseOnFocusLoss={false}
-                draggable={false}
-                pauseOnHover={false}
-                theme="light"
-                transition={Slide}
-            />
+                <RouterProvider router={router} />
+                <ToastContainer
+                    position="bottom-right"
+                    autoClose={3000}
+                    hideProgressBar
+                    newestOnTop={false}
+                    closeOnClick={false}
+                    rtl={false}
+                    pauseOnFocusLoss={false}
+                    draggable={false}
+                    pauseOnHover={false}
+                    theme="light"
+                    transition={Slide}
+                />
         </QueryClientProvider>
     </StrictMode>,
 )
