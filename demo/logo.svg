@@ -1,0 +1,23 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+
+  <!-- Briefcase Icon -->
+  <g transform="translate(80, 35)">
+    <!-- Main briefcase body -->
+    <rect x="5" y="15" width="40" height="30" rx="2" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+    
+    <!-- Briefcase handle -->
+    <path d="M 18 15 Q 18 8, 25 8 Q 32 8, 32 15" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Briefcase lock/clasp -->
+    <rect x="23" y="25" width="4" height="8" rx="1" fill="#1e40af"/>
+    
+    <!-- Briefcase top edge detail -->
+    <line x1="5" y1="15" x2="45" y2="15" stroke="#1e40af" stroke-width="1.5"/>
+  </g>
+  
+  <!-- SeekJobs Text -->
+  <text x="140" y="72" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#3b82f6">
+    SeekJobs
+  </text>
+</svg>
