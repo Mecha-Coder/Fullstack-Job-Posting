@@ -1,0 +1,10 @@
+Build image
+===================
+docker build -t img-fastify .
+
+Run container
+==================
+docker run --name jobPost-backend \
+  --env-file ../.env \
+  -p 5000:5000 \
+  img-fastify
